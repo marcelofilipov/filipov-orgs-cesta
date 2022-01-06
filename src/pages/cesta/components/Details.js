@@ -1,10 +1,10 @@
 import React from "react"
-import { Image, StyleSheet, View } from 'react-native'
+import { Image, StyleSheet, TouchableOpacity, View } from 'react-native'
 
 import TextoPadrao from '../../../components/TextoPadrao'
 
 
-export default function Details({ name, farmLogo, farmName, description, price}) {
+export default function Details({ name, farmLogo, farmName, description, price, buyButton}) {
     return <>
         <TextoPadrao style={styles.name}>{ name }</TextoPadrao>
         <View style={styles.farm}>
@@ -13,6 +13,10 @@ export default function Details({ name, farmLogo, farmName, description, price})
         </View>
         <TextoPadrao style={styles.description}>{ description }</TextoPadrao>
         <TextoPadrao style={styles.price}>{ price }</TextoPadrao>
+
+        <TouchableOpacity style={styles.buyButton} onPress={() => {}}>
+            <TextoPadrao style={styles.textBuyButton}>{ buyButton }</TextoPadrao>
+        </TouchableOpacity>
     </>
 }
 
@@ -47,5 +51,18 @@ const styles = StyleSheet.create({
         fontSize: 26,
         lineHeight: 42,
         marginTop: 8,
-    }
+    },
+    buyButton: {
+        marginTop: 16,
+        backgroundColor: '#2a9f85',
+        paddingVertical: 16,
+        borderRadius: 10,
+    },
+    textBuyButton: {
+        textAlign: 'center',
+        color: '#fff',
+        fontSize: 16,
+        lineHeight: 26,
+        fontWeight: 'bold',
+    },
 })
