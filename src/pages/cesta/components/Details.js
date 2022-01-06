@@ -3,22 +3,16 @@ import { Image, StyleSheet, View } from 'react-native'
 
 import TextoPadrao from '../../../components/TextoPadrao'
 
-import logo from '../../../../assets/logo.png'
 
-
-export default function Details() {
+export default function Details({ nome, logoFazenda, nomeFazenda, descricao, preco}) {
     return <>
-        <TextoPadrao style={styles.nome}>Cesta de Verduras</TextoPadrao>
+        <TextoPadrao style={styles.nome}>{ nome }</TextoPadrao>
         <View style={styles.fazenda}>
-            <Image source={logo} style={styles.imagemFazenda}></Image>
-            <TextoPadrao style={styles.nomeFazenda}>Jenny Jack Farm</TextoPadrao>
+            <Image source={ logoFazenda } style={styles.imagemFazenda}></Image>
+            <TextoPadrao style={styles.nomeFazenda}>{ nomeFazenda }</TextoPadrao>
         </View>
-        <TextoPadrao style={styles.descricao}>
-            Uma cesta com produtos selecionados
-            cuidadosamente da fazenda direito
-            para sua cozinha
-        </TextoPadrao>
-        <TextoPadrao style={styles.preco}>R$ 40,00</TextoPadrao>
+        <TextoPadrao style={styles.descricao}>{ descricao }</TextoPadrao>
+        <TextoPadrao style={styles.preco}>{ preco }</TextoPadrao>
     </>
 }
 

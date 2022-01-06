@@ -5,11 +5,11 @@ import Header from './components/Header'
 import Details from './components/Details'
 
 
-export default function Cesta() {
+export default function Cesta({ header, details}) {
     return <>
-        <Header />
+        <Header {...header} />
         <View style={styles.cesta}>
-            <Details />
+            <Details {...details} />
         </View>
     </>
 }

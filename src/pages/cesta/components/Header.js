@@ -8,10 +8,10 @@ import topo from '../../../../assets/topo.png'
 
 const width = Dimensions.get('screen').width
 
-export default function Header() {
+export default function Header({ title }) {
     return <>
         <Image source={topo} style={styles.topo}/>
-        <TextoPadrao style={styles.titulo}>Detalhe da cesta</TextoPadrao>
+        <TextoPadrao style={styles.titulo}>{ title }</TextoPadrao>
     </>
 }
 
