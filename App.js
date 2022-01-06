@@ -5,7 +5,7 @@ import {
   Montserrat_700Bold
  } from '@expo-google-fonts/montserrat';
 
-import Cesta from './src/components/cesta';
+import Cesta from './src/pages/cesta'
 
 
 export default function App() {
