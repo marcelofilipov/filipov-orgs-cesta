@@ -5,11 +5,11 @@ const cesta = {
         title: 'Detalhe da cesta',
     },
     details: {
-        nome: 'Cesta de Verduras',
-        logoFazenda: logo,
-        nomeFazenda: 'Jenny Jack Farm',
-        descricao: 'Uma cesta com produtos selecionados cuidadosamente da fazenda direito para sua cozinha',
-        preco: 'R$ 42,98',
+        name: 'Cesta de Verduras',
+        farmLogo: logo,
+        farmName: 'Jenny Jack Farm',
+        description: 'Uma cesta com produtos selecionados cuidadosamente da fazenda direito para sua cozinha',
+        price: 'R$ 42,98',
     }
 }
 

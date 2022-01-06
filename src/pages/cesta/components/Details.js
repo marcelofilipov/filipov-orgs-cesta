@@ -4,44 +4,44 @@ import { Image, StyleSheet, View } from 'react-native'
 import TextoPadrao from '../../../components/TextoPadrao'
 
 
-export default function Details({ nome, logoFazenda, nomeFazenda, descricao, preco}) {
+export default function Details({ name, farmLogo, farmName, description, price}) {
     return <>
-        <TextoPadrao style={styles.nome}>{ nome }</TextoPadrao>
-        <View style={styles.fazenda}>
-            <Image source={ logoFazenda } style={styles.imagemFazenda}></Image>
-            <TextoPadrao style={styles.nomeFazenda}>{ nomeFazenda }</TextoPadrao>
+        <TextoPadrao style={styles.name}>{ name }</TextoPadrao>
+        <View style={styles.farm}>
+            <Image source={ farmLogo } style={styles.farmImage}></Image>
+            <TextoPadrao style={styles.farmName}>{ farmName }</TextoPadrao>
         </View>
-        <TextoPadrao style={styles.descricao}>{ descricao }</TextoPadrao>
-        <TextoPadrao style={styles.preco}>{ preco }</TextoPadrao>
+        <TextoPadrao style={styles.description}>{ description }</TextoPadrao>
+        <TextoPadrao style={styles.price}>{ price }</TextoPadrao>
     </>
 }
 
 const styles = StyleSheet.create({
-    nome: {
+    name: {
         color: '#464646',
         fontSize: 26,
         lineHeight: 42,
         fontWeight: 'bold',
     },
-    fazenda: {
+    farm: {
         flexDirection: 'row',
-        paddingVertical: 12,
+        paddingVertical: 18,
     },
-    imagemFazenda: {
-        width: 32,
-        height: 32,
+    farmImage: {
+        width: 36,
+        height: 36,
     },
-    nomeFazenda: {
+    farmName: {
         fontSize: 16,
         lineHeight: 26,
         marginLeft: 12,
     },
-    descricao: {
+    description: {
         color: '#a3a3a3',
         fontSize: 16,
         lineHeight: 26,
     },
-    preco: {
+    price: {
         color: "#2a9f85",
         fontWeight: 'bold',
         fontSize: 26,
