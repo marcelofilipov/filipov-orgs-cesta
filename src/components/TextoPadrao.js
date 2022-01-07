@@ -1,6 +1,7 @@
 import React from 'react'
 import { StyleSheet, Text } from 'react-native'
 
+
 export default function TextoPadrao({ children, style }) {
     let estilo = styles.textoPadrao
 
@@ -10,6 +11,7 @@ export default function TextoPadrao({ children, style }) {
 
     return <Text style={[style, estilo]}>{ children }</Text>
 }
+
 
 const styles = StyleSheet.create({
     textoPadrao: {

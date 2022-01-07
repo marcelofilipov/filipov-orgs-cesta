@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
     },
     farm: {
         flexDirection: 'row',
-        paddingVertical: 18,
+        paddingVertical: 12,
     },
     farmImage: {
         width: 36,
@@ -56,7 +56,7 @@ const styles = StyleSheet.create({
         marginTop: 16,
         backgroundColor: '#2a9f85',
         paddingVertical: 16,
-        borderRadius: 10,
+        borderRadius: 12,
     },
     textBuyButton: {
         textAlign: 'center',

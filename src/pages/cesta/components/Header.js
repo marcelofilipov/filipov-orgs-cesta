@@ -11,7 +11,7 @@ const width = Dimensions.get('screen').width
 export default function Header({ title }) {
     return <>
         <Image source={topo} style={styles.topo}/>
-        <TextoPadrao style={styles.titulo}>{ title }</TextoPadrao>
+        <TextoPadrao style={styles.title}>{ title }</TextoPadrao>
     </>
 }
 
@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
         width: '100%',
         height: 578 / 768 * width,
     },
-    titulo: {
+    title: {
         width: '100%',
         position: 'absolute',
         textAlign: 'center',
