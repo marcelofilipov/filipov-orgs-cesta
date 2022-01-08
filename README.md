@@ -1,8 +1,6 @@
-# Orgs-Cesta ![GitHub](https://img.shields.io/github/license/marcelofilipov/filipov-Orgs-Cesta) ![GitHub repo size](https://img.shields.io/github/repo-size/marcelofilipov/filipov-orgs-cesta) ![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/marcelofilipov/filipov-orgs-cesta)
- 
+![GitHub](https://img.shields.io/github/license/marcelofilipov/filipov-Orgs-Cesta) ![GitHub repo size](https://img.shields.io/github/repo-size/marcelofilipov/filipov-orgs-cesta) ![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/marcelofilipov/filipov-orgs-cesta)
 
-
-
+# Orgs-Cesta 
 ## Projeto
 Este projeto é resultado do treinamento em **React Native** realizado na [Alura](https://www.alura.com.br/).
 Basicamente é implementada uma tela de detalhes da cesta do e-commerce *orgs*. Nesta tela são mostrados dados estáticos do nome da cesta, fazenda, preço e itens da cesta.
