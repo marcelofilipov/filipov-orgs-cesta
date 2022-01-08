@@ -33,8 +33,9 @@ Para conseguir seguir este README e rodar o projeto você pode precisar dos segu
 - Um celular Android ou iOS com o aplicativo Expo instalado, ou então algum simulador Android ou iOS no computador;
 
 Com o `npm` instalado podemos instalar o `expo` :
-```
-npm install --global expo-cli
+```bash
+# Instalando o expo-cli
+$ npm install --global expo-cli
 ```
 ### Clonando o projeto
 Para ter acesso aos arquivos do projeto você pode clonar usando o seguinte comando:
