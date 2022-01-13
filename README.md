@@ -1,8 +1,6 @@
-# Orgs-Cesta ![GitHub](https://img.shields.io/github/license/marcelofilipov/filipov-Orgs-Cesta) ![GitHub repo size](https://img.shields.io/github/repo-size/marcelofilipov/filipov-orgs-cesta) ![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/marcelofilipov/filipov-orgs-cesta)
- 
+![GitHub](https://img.shields.io/github/license/marcelofilipov/filipov-Orgs-Cesta) ![GitHub repo size](https://img.shields.io/github/repo-size/marcelofilipov/filipov-orgs-cesta) ![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/marcelofilipov/filipov-orgs-cesta)
 
-
-
+# Orgs-Cesta 
 ## Projeto
 Este projeto é resultado do treinamento em **React Native** realizado na [Alura](https://www.alura.com.br/).
 Basicamente é implementada uma tela de detalhes da cesta do e-commerce *orgs*. Nesta tela são mostrados dados estáticos do nome da cesta, fazenda, preço e itens da cesta.
@@ -29,28 +27,32 @@ As técnicas e tecnologias utilizadas no projeto são:
 
 ## Executando o projeto
 ### Pré-requisitos
-Para conseguir seguir este README e rodar o projeto você pode precisar dos seguintes itens:
-- Git para clonar o projeto e acessar as branches. Você pode instalar [aqui](https://git-scm.com/downloads);
-- Node para podermos rodar `expo` e `npm`. Você pode instala-lo [aqui](https://nodejs.org/en/);
-- Um celular Android ou iOS com o aplicativo Expo instalado, ou então algum simulador Android ou iOS no computador;
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) necessário para podermos rodar `expo` e `npm`;
+Um celular Android ou iOS com o aplicativo Expo instalado, ou então algum simulador Android ou iOS no computador;
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
 Com o `npm` instalado podemos instalar o `expo` :
-```
-npm install --global expo-cli
+```bash
+# Instalando o expo-cli
+$ npm install --global expo-cli
 ```
 ### Clonando o projeto
 Para ter acesso aos arquivos do projeto você pode clonar usando o seguinte comando:
-```
-git clone https://github.com/marcelofilipov/filipov-orgs-cesta.git
+```bash
+# Fazer o clone do projeto que se encontra no repositório
+$ git clone https://github.com/marcelofilipov/filipov-orgs-cesta.git
 ```
 ### Rodando o Projeto
 Agora que já tem a pasta do projeto na sua máquina, dentro dela instale as dependências:
-```
-npm install
+```bash
+# Instale as dependências
+$ npm install
 ```
 Então podemos rodar o projeto:
-```
-npm start
+```bash
+# Iniciando a aplicação
+$ npm start
 ```
 Uma guia no navegador irá abrir, geralmente [neste endereço](http://localhost:19002/).
 
