@@ -9,39 +9,39 @@ import Item from './components/Item'
 
 
 export default function Cesta({ header, details, items }) {
-    return <>
+  return <>
 
-        <FlatList
-            data={items.listBasket}
-            renderItem={Item}
-            keyExtractor={({ nameVeg }) => nameVeg }
+    <FlatList
+      data={items.listBasket}
+      renderItem={Item}
+      keyExtractor={({ nameVeg }) => nameVeg}
 
-            ListHeaderComponent={() => {
-                return <>
-                    <Header {...header} />
-                    <View style={styles.basket}>
-                        <Details {...details} />
-                        <TextoPadrao style={styles.title}>{ items.title }</TextoPadrao>
-                    </View>
-                </>
-            }}
-        />
+      ListHeaderComponent={() => {
+        return <>
+          <Header {...header} />
+          <View style={styles.basket}>
+            <Details {...details} />
+            <TextoPadrao style={styles.title}>{items.title}</TextoPadrao>
+          </View>
+        </>
+      }}
+    />
 
-    </>
+  </>
 }
 
 
 const styles = StyleSheet.create({
-    basket: {
-        paddingVertical: 8,
-        paddingHorizontal: 16,
-    },
-    title: {
-        color: '#464646',
-        fontWeight: 'bold',
-        marginTop: 32,
-        marginBottom: 8,
-        fontSize: 20,
-        lineHeight: 32,
-    },
+  basket: {
+    paddingVertical: 8,
+    paddingHorizontal: 16,
+  },
+  title: {
+    color: '#464646',
+    fontWeight: 'bold',
+    marginTop: 32,
+    marginBottom: 8,
+    fontSize: 20,
+    lineHeight: 32,
+  },
 })
